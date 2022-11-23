@@ -1,4 +1,4 @@
-FROM tomcat:8.5.37-jre8 
+FROM tomcat:8.5.77-jre8 
 MAINTAINER rohit
 RUN apt-get update 
 ADD https://rohit05may22.s3.us-west-2.amazonaws.com/mahaLogin.war /usr/local/tomcat/webapps
